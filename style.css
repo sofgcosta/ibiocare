@@ -42,8 +42,38 @@ margin-bottom: -30px}
 
 #background {background-image: url(background.png);}
 
-#mockup {width: 500px;
-height: 500px;}
+#mockup {width: 800px;
+height: 600px;
+margin-left:700px;
+margin-top: 10px;}
+
+#baixe {font-size:50px;
+  font-family:'Quicksand',sans-serif;
+  font-weight: 300;
+  margin-left:40px;
+  position: absolute;
+  top: 150px;
+  color:#9edfc9;}
+
+  #disponivel {font-size:25px;
+    font-family:'Quicksand',sans-serif;
+    font-weight: 300;
+    margin-left:65px;
+    position: absolute;
+    top: 230px;
+    color:#9edfc9;}
+  
+  #appstore {height: 50px;
+    width: 150px;
+    margin-top: -600px;
+    margin-left: 100px;
+    border-radius: 10px;}
+
+  #googleplay{height: 50px;
+    width: 150px;
+    margin-top: -600px;
+    margin-left: 95px;
+    border-radius: 10px;}
 
 #parceiros {font-size:60px;
   font-family:'Quicksand',sans-serif;
@@ -53,22 +83,49 @@ height: 500px;}
   top: 50px;
   color:#084c6c;}
   
-  #carrossel {position: absolute;
-    height: 500px;
-    width: 500px;
-    margin-left:450px;
+/* sessão "por trás dos códigos"*/
+#abraao{height:250px;
+  width:250px;
+  margin-top:200px;
+  margin-left:-20px;
+ }
+
+#clara{height:250px;
+  width:250px;
+  margin-top:200px;
+  margin-left:-20px;
+}
+
+#daniel {height:250px;
+  width:250px;
+  margin-top:200px;
+  margin-left:-20px;
+  margin-right:-100px;
+  border-bottom: 10px;
+  position: absolute;
+ }
+
+#beatriz {height:300px;
+  width:300px;
+  margin-top:160px;
+  margin-left:170px;
+  border-bottom: 10px;
+  position: absolute;}
+
+  #sofia {height:250px;
+  width:230px;
+  margin-top:210px;
+  margin-left:430px;
+  border-bottom: 10px;
+  position: absolute;}
+
+  #pedro {height:270px;
+    width:250px;
     margin-top:200px;
-  }
-
-#proa {height: 300px;
-  width: 300px;}
-
-#oracle {height: 300px;
-  width: 300px;}
-
-#eco {height: 300px;
-  width: 300px;}
-
+    margin-left:630px;
+    border-bottom: 10px;
+    position: absolute;
+    margin-right: 30px;}
 
 #container {top: -50px;
 align-items: center;
