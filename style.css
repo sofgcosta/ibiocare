@@ -1,24 +1,6 @@
 
-*{
-  margin: 0px;
-  padding: 0px;
-}
- 
-iframe {
-height:400px;
-width: 700px ;
-margin-left:623px;
-margin-right:0px;
-margin-top:-2500px;
-margin-bottom:60px;
-}
  
   /*Sessões do site */
-
-header{
-  background-color:#66CDAA;
-  width:100%;
-  height:150px;}
 
 nav{
     background-color: #9edfc9;
@@ -27,15 +9,16 @@ nav{
  
 body {width: 100%;}
 
+
+form {
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  right: 60px;}
+
+
     
 /* ids */
-
-#logo {
-  width: 100px;
-  height: 100px;
-  margin-left: 480px;
-  margin-top: 20px;
-} 
 
 .principal{
   width: 100%;
@@ -44,14 +27,6 @@ body {width: 100%;}
   height: 800px; 
   } 
     
-#moldura {
-  height: 500px;
-  width: 740px;
-  margin-left:600px;
-  margin-right:600px;
-  margin-bottom:-0px;
-  margin-top:-400px;
-  }  
 
 #info {font-size:30px;
 font-family:'Quicksand',sans-serif;
@@ -65,25 +40,35 @@ font-family: 'Roboto', sans-serif;
 color:#084c6c;
 margin-bottom: -30px}
 
-#sobre_nos {background-color:#508d79;
-  height: 500px;
-  width: 800px;
-  position: absolute;
-  right: 250px;
-  top: 35px;
-}
-
 #background {background-image: url(background.png);}
 
-#carrossel {align-items: center;
-  height: 500px;
-  width: 500px;
-  right: -400px;
+#mockup {width: 500px;
+height: 500px;}
+
+#parceiros {font-size:60px;
+  font-family:'Quicksand',sans-serif;
+  font-weight: 300;
+  margin-left:400px;
+  position: absolute;
   top: 50px;
-}
+  color:#084c6c;}
+  
+  #carrossel {position: absolute;
+    height: 500px;
+    width: 500px;
+    margin-left:450px;
+    margin-top:200px;
+  }
 
 #proa {height: 300px;
-width: 150px;}
+  width: 300px;}
+
+#oracle {height: 300px;
+  width: 300px;}
+
+#eco {height: 300px;
+  width: 300px;}
+
 
 #container {top: -50px;
 align-items: center;
@@ -91,7 +76,39 @@ align-items: center;
 
 #form {align-items: center;
   top: auto;
-  bottom: 300px;}
+  bottom:100px;}
+
+#form1{background-color:whitesmoke;
+  height: 550px;
+  width: 500px;
+  position: absolute;
+  top:-450px;
+  border-radius: 20px;
+}
+#galeria{height:600px;
+width: 600px;
+margin-left: 0px;
+margin-right: 300px;
+margin-left: -750px;
+margin-top: -400px;
+border-radius: 50px;}
+
+#fale {font-size:60px;
+  font-family:'Quicksand',sans-serif;
+  color:#084c6c;
+  margin-bottom:0px;
+  margin-left:70px;
+  margin-top:50px}
+
+  #icon_fale {height: 250px;
+  width: 250px;
+  margin-left:130px;}
+
+/*#conosco {font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#084c6c;
+  margin-bottom:;
+  margin-left:230px;}*/
 
 /*sessões*/
 
@@ -110,13 +127,6 @@ align-items: center;
 
 }
 /*final das sessões*/
-
-  form {
-  align-items: center;
-  top: 100px;
-}
-
-
 
 .icone-scroll {
  position: absolute;
